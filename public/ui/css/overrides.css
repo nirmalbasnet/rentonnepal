@@ -1,0 +1,313 @@
+.fa-star {
+  color: #FF860D;
+}
+
+.w3l-cover-3 .most-searches{
+  margin-top: 15px;
+}
+
+.home .properties .listing{
+    height: 280px;
+}
+
+.span-info{
+    background: green !important;
+}
+
+.span-danger{
+    background: maroon !important;
+}
+
+ul.footers-17_social li a i {
+    width: 50px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 50%;
+}
+
+div.pagination-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+ul.pagination li{
+    display: inline-block !important;
+    margin-right: 5px;
+}
+
+ul.pagination li span.page-link {
+    display: block;
+    padding: 10px 18px;
+    color: #fff;
+    border: 1px solid var(--primary-color);
+    border-radius: 50px;
+    font-weight: 700;
+    background: var(--primary-color);
+    transition: background-color .15s linear, color .15s linear;
+    box-shadow: 0 25px 98px 0 rgba(19, 19, 19, 0.03);
+}
+
+ul.pagination li a.page-link {
+    font-size: 14px;
+    display: block;
+    padding: 10px 15px;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color-light);
+    border-radius: 50px;
+    font-weight: 700;
+    color: var(--font-color);
+    transition: background-color .15s linear, color .15s linear;
+    box-shadow: 0 25px 98px 0 rgba(19, 19, 19, 0.03);
+}
+
+ul.pagination li.active .page-link {
+    font-size: 14px;
+    display: block;
+    padding: 10px 15px;
+    /*background-color: var(--bg-color);*/
+    border: 1px solid var(--border-color-light);
+    border-radius: 50px;
+    font-weight: 700;
+    /*color: var(--font-color);*/
+    transition: background-color .15s linear, color .15s linear;
+    box-shadow: 0 25px 98px 0 rgba(19, 19, 19, 0.03);
+}
+
+ul.pagination .page-item:last-child .page-link, ul.pagination .page-item:first-child .page-link{
+    font-size: 14px;
+    display: block;
+    padding: 10px 16px;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color-light);
+    border-radius: 50px;
+    font-weight: 700;
+    color: var(--font-color);
+    transition: background-color .15s linear, color .15s linear;
+    box-shadow: 0 25px 98px 0 rgba(19, 19, 19, 0.03);
+}
+
+p.cost-estate {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 5px;
+    display: inline-block;
+    color: #f93;
+}
+
+#agent-profile {
+    margin-top: 100px;
+}
+
+#agent-profile .agent-profile__box {
+    -webkit-box-shadow: -21px 21px 30px 0px rgba(139, 139, 139, 0.2);
+    box-shadow: -21px 21px 30px 0px rgba(139, 139, 139, 0.2);
+    padding: 20px;
+    background-color: #ecebeb;
+    border-radius: 10px;
+}
+
+#agent-profile .agent-profile__box .agent-image {
+    margin-top: -70px;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#agent-profile .agent-profile__box .box__second {
+    margin-top: 20px;
+}
+
+#agent-profile .agent-profile__box .box__third, #agent-profile .agent-profile__box .box__fourth {
+    margin-top: 30px;
+}
+
+#agent-profile .agent-profile__box .box__third .sales-box, #agent-profile .agent-profile__box .box__third .rating-box, #agent-profile .agent-profile__box .box__fourth .sales-box, #agent-profile .agent-profile__box .box__fourth .rating-box {
+    text-align: center;
+}
+
+#agent-profile .agent-profile__box .box__third .sales-box h5, #agent-profile .agent-profile__box .box__third .rating-box h5, #agent-profile .agent-profile__box .box__fourth .sales-box h5, #agent-profile .agent-profile__box .box__fourth .rating-box h5 {
+    color: #ff9933;
+}
+
+#agent-profile .agent-profile__box .box__fourth p {
+    text-align: justify;
+}
+
+.mb-7{
+    margin-bottom: 7rem;
+}
+
+.rate-agent{
+    background: #FF9933;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition-property: color, background-color, border-color, box-shadow;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s, 0s;
+    font-weight: 600;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+}
+
+.rate-agent:hover, .rate-agent:focus{
+    background-color: #ff860d;
+    border-color: #ff8000;
+    outline: none;
+    color: #000;
+}
+
+#all-agents {
+    padding-bottom: 60px;
+}
+
+#all-agents .all-agents__container {
+    margin: 30px 0;
+}
+
+#all-agents .all-agents__container .container__agent-box {
+    padding: 20px !important;
+}
+
+#all-agents .all-agents__container .container__agent-box * {
+    background-color: white;
+}
+
+#all-agents .all-agents__container .container__agent-box .agent-box__image-details .image-details__image .image--image {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: black;
+    /*background-image: url("/assets/images/team1.jpg");*/
+    background-size: cover;
+    background-position: center;
+}
+
+#all-agents .all-agents__container .container__agent-box .agent-box__image-details .image-details__details .details--rating i {
+    color: #FF860D;
+}
+
+#all-agents .all-agents__container .container__agent-box .agent-box__description {
+    padding-top: 20px;
+}
+
+#all-agents .all-agents__container .container__agent-box .agent-box__listings {
+    padding-top: 20px;
+}
+
+#all-agents .all-agents__container .container__agent-box .agent-box__listings .listings--listing-box {
+    background-color: #cacaca;
+    width: 100%;
+}
+
+#all-agents .all-agents__container .container__agent-box .agent-box__view-all {
+    padding-top: 10px;
+}
+
+#all-agents .all-agents__container .container__agent-box .agent-box__view-all .view-all {
+    position: relative;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+#all-agents .all-agents__container .container__agent-box .agent-box__view-all .view-all:hover {
+    color: black;
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+}
+
+.pad-20 {
+    padding: 20px;
+}
+
+header.nav-fixed {
+    background-color: #fff;
+}
+
+.btn-style.active-button{
+    color: #fff;
+    text-decoration: underline;
+    cursor: not-allowed !important;
+}
+/*# sourceMappingURL=overrides.css.map */
+
+
+/* For styled select */
+.styled-select {
+    position: relative;
+    height: 60px;
+    width: 23.5%;
+    background: #fff;
+}
+
+.styled-select select {
+    display: none !important; /*hide original SELECT element:*/
+}
+
+.select-selected {
+    background-color: #fff;
+    height: 60px;
+    text-align: left;
+    padding-left: 15px;
+    vertical-align: middle;
+    line-height: 2.5;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    color: #888;
+    border-left: 1px solid #eee !important;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 27px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid #888;
+    border-color: #888 transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div, .select-selected {
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    text-align: left;
+    color: #888;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/* For styled select ends */
